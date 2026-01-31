@@ -1,0 +1,209 @@
+:root{
+  /* papery palette (from your earlier preference) */
+  --paper: #F3EFE6;        /* background */
+  --ink:   #262626;        /* primary text */
+  --muted: #6A665F;        /* secondary text / author */
+  --divider:#CFC7B8;       /* subtle borders */
+  --accent:#3A3A3A;        /* accents */
+  --max-width: 70ch;
+}
+
+/* page baseline */
+html,body {
+    height: 100vh;
+    max-height: 100vh;
+    cursor: pointer;
+}
+
+body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    margin:0;
+    padding: 1.5rem 1rem;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* container to constrain measure for readability */
+.site-container{
+    width:100%;
+    max-width:var(--max-width);
+    margin:0 auto;
+}
+
+/* SITE TITLE / NAME */
+.site-title{
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  margin: 0 0 0.6rem 0;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+  color: var(--accent);
+  font-size: 28px;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  text-align: center;
+}
+
+/* QUOTE / BLOCKQUOTE */
+.quote-block{
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+/* main quote text */
+.quote-text{
+  font-family: "Crimson Text", "Georgia", serif;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.45;
+  letter-spacing: 0.002em;
+  color: var(--ink);
+  quotes: """ """ "'" "'";
+}
+
+/* optional decorative quote marks (if you want them larger) */
+.quote-text::before{
+    content: open-quote;
+    font-size: 2.5em;
+    line-height: 0;
+    margin-right: 0.2em;
+    vertical-align: -0.25em;
+    color: var(--divider);
+    opacity: 0.9;
+    position: absolute;
+    transform: translateX(-15px);
+}
+
+/* AUTHOR / attribution */
+.quote-author{
+  margin-top: 0.6rem;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--muted);
+  display:block;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  text-align: end;
+}
+
+/*=========*/
+
+.divider
+{
+	position: relative;
+	margin-top: 20px;
+  margin-bottom: 30px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-stopper:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -6px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 12px;
+	background-color: var(--paper);
+	border-left: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
+}
+
+.quote-text,
+.quote-author {
+  transition: opacity 300ms ease;
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+/* TABLET & LARGER (min-width: 768px) */
+@media (min-width: 768px) {
+  body {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .site-title {
+    font-size: 36px;
+  }
+
+  .quote-block {
+    padding: 1rem 1.5rem;
+  }
+
+  .quote-text {
+    font-size: 26px;
+  }
+
+  .quote-text::before {
+    font-size: 2.8em;
+    transform: translateX(-18px);
+  }
+
+  .quote-author {
+    font-size: 14px;
+  }
+
+  .divider {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+/* DESKTOP & LARGER (min-width: 1024px) */
+@media (min-width: 1024px) {
+  body {
+    padding: 3.2rem 2rem;
+  }
+
+  .site-title {
+    font-size: 46px;
+  }
+
+  .quote-block {
+    padding: 1.1rem 1.25rem;
+  }
+
+  .quote-text {
+    font-size: 30px;
+  }
+
+  .quote-text::before {
+    font-size: 3em;
+    transform: translateX(-20px);
+  }
+
+  .quote-author {
+    font-size: 16px;
+  }
+
+  .divider {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
