@@ -13,7 +13,7 @@ window.quotes = [
   { text: "Vi har ett ordspråk, sparka på den Fabian som ligger ner", author: "Daniel Andersen", watershed: false },
   { text: "Jens, vad va det du sa om hemmorroider", author: "Alexander Boman Skoug", watershed: false },
   { text: "Ta det lungt, jag är snart medicinerad", author: "Jens Jacobsen", watershed: false },
-  { text: "Man får säga snopp även om HR är med", author: "Emma Rask (HR)", watershed: false },
+  { text: "Man får säga snopp om HR är med", author: "Emma Rask (HR)", watershed: false },
   { text: "Sålt smöret och tappat det igen", author: "Max Sjöstrand", watershed: false },
   { text: "O så kommer den där hudfärgade köttgrejen", author: "Jacob", watershed: true },
   { text: "Jag behöver inga agenter jag har bara skills", author: "Rix", watershed: false },
