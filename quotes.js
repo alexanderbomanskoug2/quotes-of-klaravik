@@ -14,5 +14,9 @@ window.quotes = [
   { text: "Jens, vad va det du sa om hemmorroider", author: "Alexander Boman Skoug", watershed: false },
   { text: "Ta det lungt, jag är snart medicinerad", author: "Jens Jacobsen", watershed: false },
   { text: "Man får säga snopp även om HR är med", author: "Emma Rask (HR)", watershed: false },
-  { text: "Sålt smöret och tappat det igen", author: "Max Sjöstrand", watershed: false }
+  { text: "Sålt smöret och tappat det igen", author: "Max Sjöstrand", watershed: false },
+  { text: "O så kommer den där hudfärgade köttgrejen", author: "Jacob", watershed: true },
+  { text: "Jag behöver inga agenter jag har bara skills eller inte bra nog?", author: "Rix", watershed: false },
+  { text: "Det är bara att pressa mot munnen och svälja", author: "Pontus Vigstrand", watershed: true },
+  { text: "Det är inte säkert att bibeln är 100% rätt", author: "Simon Jackler", watershed: false },
 ];
