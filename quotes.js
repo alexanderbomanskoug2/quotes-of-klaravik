@@ -6,13 +6,13 @@ window.quotes = [
   { text: "This IS the biggest one!", author: "Max Sjöstrand", watershed: false },
   { text: "Varje gång en utvecklare säger 'ingen stress' gråter en projektledare", author: "Alexander Boman Skoug", watershed: false },
   { text: "6 liter eller inget!", author: "Alexander Boman Skoug", watershed: false },
-  { text: "Det är inte kul att bli slagen, bara att bli skjuten", author: "Fabian Olsson", watershed: true },
-  { text: "Får ni också känaslan av att vi bara sitter är & leker vuxna?", author: "Tova Westerlund", watershed: false },
+  { text: "Det är inte kul att bli slagen, bara att bli skjuten", author: "Fabian Olsson", watershed: false },
+  { text: "Får ni också känslan av att vi bara sitter är & leker vuxna?", author: "Tova Westerlund", watershed: false },
   { text: "Leverera - att få lever strösslad över sin måltid (oftast av Max)", author: "Okänd", watershed: false },
   { text: "Där e´ datajux jahh...", author: "Cecil Folkessson", watershed: false },
   { text: "Vi har ett ordspråk, sparka på den Fabian som ligger ner", author: "Daniel Andersen", watershed: false },
   { text: "Jens, vad va det du sa om hemmorroider", author: "Alexander Boman Skoug", watershed: false },
   { text: "Ta det lungt, jag är snart medicinerad", author: "Jens Jacobsen", watershed: false },
-  { text: "Man får säga snopp även om HR är med", author: "Emma Rask (HR)", watershed: true },
+  { text: "Man får säga snopp även om HR är med", author: "Emma Rask (HR)", watershed: false },
   { text: "Sålt smöret och tappat det igen", author: "Max Sjöstrand", watershed: false }
 ];
