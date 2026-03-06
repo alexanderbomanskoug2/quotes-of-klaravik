@@ -20,4 +20,5 @@ window.quotes = [
   { text: "Det är bara att pressa mot munnen och svälja", author: "Pontus Vigstrand", watershed: true },
   { text: "Det är inte säkert att bibeln är 100% rätt", author: "Simon Jackler", watershed: false },
   { text: "Är hans fru singel?", author: "Alexander Boman Skoug", watershed: false },
+  { text: "I might be an idiot... I am an idiot!", author: "Marcus Ekelund", watershed: false },
 ];
