@@ -159,7 +159,6 @@ document.addEventListener('keydown', onKeyDown);
 
 document.addEventListener('DOMContentLoaded', () => {
   updateQuote();
-  updateWatershedButtonState();
 });
 
 slideshowButton.addEventListener("click", (e) => {

@@ -72,6 +72,7 @@ body {
   letter-spacing: 0.002em;
   color: var(--ink);
   quotes: """ """ "'" "'";
+  white-space: pre-line;
 }
 
 /* optional decorative quote marks (if you want them larger) */
