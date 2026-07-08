@@ -23,4 +23,6 @@ window.quotes = [
   { text: "I might be an idiot... I am an idiot!", author: "Marcus Ekelund", watershed: false },
   { text: "Du har inga rättigheter, bara feligheter", author: "Marcus Ekelund", watershed: false },
   { text: "\"Kan du göra det?\"\n\"Jag har redan glömt vad vi skulle göra\"\n\"Det har jag också, det var därför jag bad dig att göra det\"", author: "Alexander & Patrik", watershed: false },
+  { text: "Jag fotade en gubbe i en kikare som satt i en liten grej", author: "Simon", watershed: false },
+  { text: "Hade du köpt en njure från en afrikan som är ekologisk?", author: "Simon", watershed: true },
 ];
