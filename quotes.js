@@ -25,4 +25,8 @@ window.quotes = [
   { text: "\"Kan du göra det?\"\n\"Jag har redan glömt vad vi skulle göra\"\n\"Det har jag också, det var därför jag bad dig att göra det\"", author: "Alexander & Patrik", watershed: false },
   { text: "Jag fotade en gubbe i en kikare som satt i en liten grej", author: "Simon", watershed: false },
   { text: "Hade du köpt en njure från en afrikan som är ekologisk?", author: "Simon", watershed: true },
+  { text: "Vi låter det va tills det inte är ett problem", author: "Patrik", watershed: false },
+  { text: "Om han säger det, så kommer jag spy… i min mun!!!", author: "Emma", watershed: false },
+  { text: "Jag hatar consent", author: "Sonny", watershed: true },
+  { text: "Han låter snygg, jag måste googla honom... Äeehhh...", author: "Emelie", watershed: false },
 ];
